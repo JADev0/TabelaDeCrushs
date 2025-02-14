@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header.cabecalho {
+
+    background-color: #aa2c8d;
+    color: white;
+    padding: 70px 20px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    scroll-margin-top: 70px;
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h4.formulario-titulo {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #710073;
+}
+
+.dados {
+    margin-bottom: 15px;
+}
+
+.dados label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #710073;
+}
+
+.dados input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+.botao {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botao button {
+    padding: 10px 20px;
+    background-color: #ad3ea2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.botao button:hover {
+    background-color: #93398a;
+}
+
+.botao button:active {
+    background-color: #5d0454;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table caption {
+    font-weight: bold;
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #aa2c8d;
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #1f4249;
+    color: white;
+}
+
+table td {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+table tr:hover td {
+    background-color: rgba(248, 153, 222, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+table tr:hover th {
+    background-color: rgba(248, 153, 222, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+table tr:active td {
+    background-color: rgba(255, 0, 187, 0.5);
+}
+
+table tr:active th {
+    background-color: rgba(255, 0, 187, 0.5);
+}
+
+
+footer.rodape {
+    background-color: #eaa1c7;
+    color: #333;
+    padding: 20px;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer.rodape span {
+    display: block;
+    margin: 5px 0;
+}
+
+footer.rodape span:first-child {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+footer.rodape span:nth-child(4) {
+    font-weight: bold;
+    margin-top: 10px;
+}
